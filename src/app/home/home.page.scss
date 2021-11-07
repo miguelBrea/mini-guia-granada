@@ -1,0 +1,47 @@
+#container{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(252, 214, 0);
+  padding: 20px;
+  margin-top: 5px;
+}
+html{
+  background-color: antiquewhite;
+  margin: 0px;
+  padding: 0px;
+}
+
+#monumentos{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(81, 115, 226);
+  color:antiquewhite;
+}
+button{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#containerMonumento{
+  background-color: rgb(0, 204, 255);
+
+}
+.monument,.pasear,.transporte{
+  border: 1px solid rgb(43, 43, 65);
+  font-size: 1rem;
+  width: 100%;
+  background-color: rgb(81, 115, 226);
+  color:antiquewhite;
+}
+#pasear,#transporte{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(81, 115, 226);
+  color:antiquewhite;
+}
+
+

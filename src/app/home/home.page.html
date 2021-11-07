@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mini Guia Granada
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <div id="container">
+    Mini-guía de Granada
+    <ion-icon name="airplane-outline"></ion-icon>
+  </div>
+
+  <div id="boxMonumentos">
+    <div id="monumentos">
+      &nbsp;<ion-icon slot="start" name="images-outline">
+      </ion-icon> &nbsp;&nbsp;&nbsp;Monumentos
+    </div>
+    <div>
+      <a href="/alambra">
+        <div class="monument">
+          <app-alhambra></app-alhambra>
+        </div>
+      </a>
+      <a href="/catedral">
+        <div class="monument">
+          <app-catedral></app-catedral>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="boxPasear">
+    <div id="pasear">
+      &nbsp;<ion-icon slot="start" name="walk-outline"></ion-icon> 
+      &nbsp;&nbsp;&nbsp;Paseos
+    </div>
+    <div>
+      <a href="/triste">
+        <div class="pasear">
+          <app-triste></app-triste>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="boxTransporte">
+    <div id="transporte">
+      &nbsp;<ion-icon slot="start" name="subway-outline">
+      </ion-icon> &nbsp;&nbsp;&nbsp;Transporte
+    </div>
+    <div>
+      <a href="/tren">
+        <div class="trasporte">
+          <app-tren></app-tren>
+        </div>
+      </a>
+    </div>
+  </div>
+</ion-content>
